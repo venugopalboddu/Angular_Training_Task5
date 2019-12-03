@@ -1,4 +1,4 @@
-# Http
+# Get details from db.json and depending on the gender put all male records in 1 div and female records in another div.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.5.
 
