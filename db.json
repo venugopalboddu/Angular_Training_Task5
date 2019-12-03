@@ -1,0 +1,40 @@
+{
+  "details": [
+    {
+      "id": 1,
+      "fname": "Venugopal",
+      "lname": "Boddu",
+      "gender": "Male"
+    },
+    {
+      "id": 2,
+      "fname": "Prasanna",
+      "lname": "Kumar",
+      "gender": "Male"
+    },
+    {
+      "id": 3,
+      "fname": "Akram ",
+      "lname": "Shaiak",
+      "gender": "Male"
+    },
+    {
+      "id": 4,
+      "fname": "Ramya",
+      "lname": "Chella",
+      "gender": "Female"
+    },
+    {
+      "id": 5,
+      "fname": "Srujana",
+      "lname": "Katta",
+      "gender": "Female"
+    },
+    {
+      "id": 6,
+      "fname": "Jyothi",
+      "lname": "Kumari",
+      "gender": "Female"
+    }
+  ]
+}

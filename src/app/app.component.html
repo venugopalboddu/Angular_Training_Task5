@@ -1,0 +1,38 @@
+<div class="container" style="margin-top: 50px">
+  <h3 class="text-center">Male Records</h3><br/>
+  <table class="table" border="1">
+    <tr>
+        <th>Id</th>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <!-- <th>Gender</th> -->
+    </tr>
+    <ng-container *ngFor="let d of fdata">
+    <tr *ngIf="d.gender==='Male'">
+        <td>{{d.id}}</td>
+        <td>{{d.fname}}</td>
+        <td>{{d.lname}}</td>
+        <!-- <td>{{d.gender}}</td> -->
+    </tr>
+  </ng-container>
+  </table>
+</div><br/>
+<div class="container" style="margin-top: 50px">
+    <h3 class="text-center">Female Records</h3><br/>
+    <table class="table" border="1">
+      <tr>
+          <th>Id</th>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <!-- <th>Gender</th> -->
+      </tr>
+      <ng-container *ngFor="let d of fdata">
+      <tr *ngIf="d.gender==='Female'">
+          <td>{{d.id}}</td>
+          <td>{{d.fname}}</td>
+          <td>{{d.lname}}</td>
+          <!-- <td>{{d.gender}}</td> -->
+      </tr>
+    </ng-container>
+    </table>
+  </div>
